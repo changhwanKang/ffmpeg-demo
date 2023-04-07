@@ -1,0 +1,9 @@
+convert:
+  ffmpeg-path: /usr/local/bin/ffmpeg
+  ffprobe-path: /usr/local/bin/ffprobe
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
